@@ -1,0 +1,49 @@
+{{date.DATA}}  
+{{zao.DATA}}
+当前城市：{{region.DATA}}
+今日天气：{{weather.DATA}}  {{pop.DATA}}
+当前气温：{{temp.DATA}}    
+最高气温：{{highest.DATA}}   
+最低气温：{{lowest.DATA}}
+风向：{{wind_dir.DATA}} 
+# 下雨概率 返回值 下雨概率：80%
+{{pop.DATA}}
+{{tips.DATA}}
+今天是我们在一起的第{{love_day.DATA}}天 
+{{birthday1.DATA}} 
+{{birthday2.DATA}}
+{{lucky.DATA}}
+{{note_en.DATA}}
+{{pipi.DATA}}
+===========================================================================
+公众号新增消息模板 复制等号上面即可
+部分参数说明
+# 风力 返回值 1-2级
+{{windsc.DATA}}
+#日出时间  返回值 06:10
+{{sunrise.DATA}}
+#日落时间  返回值 18:00
+{{sunset.DATA}}
+# 今日时间 返回值 2022-08-26
+{{date.DATA}}  
+# 早安语  返回值  这是一句每天变化的随机语  早安 
+{{zao.DATA}}
+#当前城市  返回 值西安市
+{{region.DATA}} 
+# 今日天气
+{{weather.DATA}}
+# 下雨概率 返回值 下雨概率：80%
+{{pop.DATA}}
+# 英文金句
+{{note_en.DATA}}
+# 中文金句
+{{note_ch.DATA}}
+
+模板消息调用时主要需要模板ID和模板中各参数的赋值内容。请注意：
+
+1.模板中参数内容必须以".DATA"结尾，否则视为保留字;
+
+2.模板保留符号"{{ }}"
+例如：需要显示日出时间则在模板里面添加
+日出时间：{{sunrise.DATA}}
+添加后，再次推送消息即可显示日常时间

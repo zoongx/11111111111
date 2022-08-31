@@ -1,0 +1,16 @@
+{
+'app_id':'wxd66ebb0b06c3fe09',
+'app_secret':'48c9d50fc4be16585b9fb45f4db21a14',
+'template_id':'a_aZpO-U-wcBTIYhT72KCKbhJeVHFyyoBt8vs92Hn9I',
+'user':['ojp1I65NHq2O3c-0nj75ahzsHu1Y'],
+'weather_key':'ojp1I67Gxccnm6BapxOfr4r8ihQA',
+'tianxing_API':'7a81a9a4003bb9831fb226145794cf62',
+'astro':'处女座',
+'region':'历下区',
+'city':'历下区',
+'birthday1':{'name':'迎迎宝贝','birthday':'1999-09-19'},
+'birthday2':{'name':'鑫鑫帅哥','birthday':'1999-04-23'},
+'love_date':'2017-11-15',
+'note_ch':'默认',
+'note_en':'默认',
+}
